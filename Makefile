@@ -12,6 +12,7 @@ BINDIR = bin
 all: $(TARGET)
 
 $(TARGET): $(OBJECTS) $(HEADERS)
+	mkdir -p $(BINDIR)
 	$(CC) $(CFLAGS) $(HEADERS) -o $(BINDIR)/$@ $(OBJECTS) 2>&1 
 
 clean:

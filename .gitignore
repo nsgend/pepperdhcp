@@ -19,5 +19,5 @@ $RECYCLE.BIN/
 ## PepperDHCP-Specifics
 ##############
 
-bin/*
+bin/
 *.o
